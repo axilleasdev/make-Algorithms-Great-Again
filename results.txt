@@ -1,0 +1,8 @@
+Benchmark Results (Average of 5 runs)
+Insert: 1000 records | Search: 100 names | Delete: 100 names
+
+Operation        BST (us)     AVL (us)     RBT (us)
+----------------------------------------------------
+Insert             274.20       431.20       232.40
+Search              24.40        13.00        12.00
+Delete              16.80        27.80        15.80
